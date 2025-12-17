@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE streaming SYSTEM "estructura.dtd">
+
+<plataformaStreaming>
+
+    <serie id="S1">
+        <titulo>El Último Viaje</titulo>
+        <temporadas>3</temporadas>
+        <clasificacion>16+</clasificacion>
+    </serie>
+
+    <serie id="S2">
+        <titulo>Risas en Casa</titulo>
+        <temporadas>5</temporadas>
+        <clasificacion>12+</clasificacion>
+    </serie>
+
+    <pelicula id="P1">
+        <titulo>Misión Final</titulo>
+        <duracion>125</duracion>
+        <clasificacion>18+</clasificacion>
+    </pelicula>
+
+    <pelicula id="P2">
+        <titulo>El Mundo Mágico</titulo>
+        <duracion>95</duracion>
+        <clasificacion>TP</clasificacion>
+    </pelicula>
+
+</plataformaStreaming>
