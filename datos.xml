@@ -15,4 +15,16 @@
         <clasificacion>7+</clasificacion>
     </serie>
 
+    <pelicula id="P1">
+        <titulo>Misión Final</titulo>
+        <duracion>125</duracion>
+        <clasificacion>18+</clasificacion>
+    </pelicula>
+
+    <pelicula id="P2">
+        <titulo>El Mundo Mágico</titulo>
+        <duracion>95</duracion>
+        <clasificacion>TP</clasificacion>
+    </pelicula>
+
 </plataformaStreaming>
