@@ -1,12 +1,23 @@
-<!ELEMENT plataformaStreaming (serie+, pelicula+)>
+<!ELEMENT plataformaStreaming (series, peliculas, documentales, animaciones)>
 
+<!ELEMENT series (serie+)>
 <!ELEMENT serie (titulo, temporadas, clasificacion)>
 <!ATTLIST serie id CDATA #REQUIRED>
 
+<!ELEMENT peliculas (pelicula+)>
 <!ELEMENT pelicula (titulo, duracion, clasificacion)>
 <!ATTLIST pelicula id CDATA #REQUIRED>
+
+<!ELEMENT documentales (documental+)>
+<!ELEMENT documental (titulo, duracion, clasificacion)>
+<!ATTLIST documental id CDATA #REQUIRED>
+
+<!ELEMENT animaciones (animacion+)>
+<!ELEMENT animacion (titulo, duracion, clasificacion)>
+<!ATTLIST animacion id CDATA #REQUIRED>
 
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT temporadas (#PCDATA)>
 <!ELEMENT duracion (#PCDATA)>
 <!ELEMENT clasificacion (#PCDATA)>
+
